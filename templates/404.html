@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{% endblock %}
+
+{% block content%}
+<section>
+    <h2>Sorry, this is not the page you are looking for!</h2>
+    <h3>{{request.status}}</h3>
+    <p><a href="/">Homepage</a></p>
+</section>
+{% endblock %}
